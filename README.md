@@ -55,14 +55,6 @@ stage('Deploy') {
 
 ✅ 3. Despliegue con Docker Compose
 
-El archivo docker-compose.yml utiliza la imagen oficial nginx:latest, exponiendo el servicio en:
-
-👉 http://localhost:8081
-
-Esto permite visualizar el resultado del despliegue desde el navegador.
-
-🧪 Resultados de la Práctica
-
 ✔ Jenkins detecta automáticamente los cambios del repositorio
 
 ✔ El pipeline ejecuta correctamente (Build #10 en estado SUCCESS)
@@ -70,7 +62,7 @@ Esto permite visualizar el resultado del despliegue desde el navegador.
 ✔ El contenedor practica_nginx se levanta sin errores
 
 ✔ Acceso al servicio desde el navegador:
-👉 http://localhost:8081
+👉 https://github.com/alejonicks/practica-configuracion.git)
 
 📷 Evidencias del funcionamiento
 
